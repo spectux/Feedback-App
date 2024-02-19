@@ -1,0 +1,48 @@
+.app-container {
+  background-color: #ffebeb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.feedback-question-container,
+.thank-you-container {
+  text-align: center;
+}
+
+.feedback-question-heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0f172a;
+}
+
+.emojis-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.emoji-item {
+  cursor: pointer;
+}
+
+.love-emoji {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.thank-you-heading {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #0f172a;
+}
+
+.thank-you-text {
+  font-size: 18px;
+  color: #0f172a;
+}
